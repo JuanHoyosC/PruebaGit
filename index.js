@@ -13,3 +13,7 @@ app.set('port', 3000)
 app.listen(app.get('port'), () => {
     console.log('Conectado al puerto ', app.get('port'))
 })
+
+
+const add = (a, b) => a + b
+console.log(add(10, 20))
