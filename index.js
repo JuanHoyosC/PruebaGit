@@ -16,3 +16,7 @@ app.listen(app.get('port'), () => {
 
 console.log("Hola")
 console.log("Mma mia")
+
+const add = (a, b) => a + b
+console.log(add(10, 20))
+
